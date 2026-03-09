@@ -16,15 +16,17 @@ import { requestPayment } from './lib/payment';
 
 function LandingPage() {
   const [showModal, setShowModal] = useState(false);
+  const [selectedPlan, setSelectedPlan] = useState('monthly');
 
-  const handleCTA = () => {
+  const handleCTA = (plan = 'monthly') => {
+    setSelectedPlan(plan);
     setShowModal(true);
   };
 
   const handleFormSubmit = async (userInfo) => {
     setShowModal(false);
     try {
-      await requestPayment(userInfo);
+      await requestPayment(userInfo, selectedPlan);
     } catch (error) {
       if (error.code === 'USER_CANCEL') return;
       console.error('결제 오류:', error);
