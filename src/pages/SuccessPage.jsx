@@ -17,7 +17,7 @@ export default function SuccessPage() {
           구독 완료!
         </h1>
         <p className="text-text-secondary leading-relaxed mb-8">
-          사무라이 해빗 구독이 시작되었습니다.
+          무사의습관 구독이 시작되었습니다.
           <br />
           코치가 곧 <span className="text-accent-green font-semibold">카카오톡으로 연락</span>드립니다.
         </p>

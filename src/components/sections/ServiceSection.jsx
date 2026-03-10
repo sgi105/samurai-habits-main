@@ -49,7 +49,7 @@ export default function ServiceSection() {
       <div className="max-w-lg mx-auto">
         <AnimateOnScroll>
           <h2 className="text-2xl md:text-3xl font-extrabold text-center mb-3">
-            <span className="text-accent-green">사무라이 해빗</span>이
+            <span className="text-accent-green">무사의습관</span>이
             <br />
             매달 해드리는 것
           </h2>

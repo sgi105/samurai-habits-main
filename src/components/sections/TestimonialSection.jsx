@@ -33,7 +33,7 @@ export default function TestimonialSection() {
             실제 회원 후기
           </h2>
           <p className="text-text-muted text-center mb-12">
-            사무라이 해빗과 함께 변화한 분들
+            무사의습관과 함께 변화한 분들
           </p>
         </AnimateOnScroll>
 

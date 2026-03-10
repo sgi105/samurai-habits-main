@@ -4,14 +4,14 @@ const CHANNEL_KEY = import.meta.env.VITE_PORTONE_CHANNEL_KEY || '';
 export const PLANS = {
   monthly: {
     name: '월 구독',
-    orderName: '사무라이 해빗 월 구독',
+    orderName: '무사의습관 월 구독',
     price: 99000,
     priceLabel: '99,000',
     unit: '원/월',
   },
   quarterly: {
     name: '3개월 일괄',
-    orderName: '사무라이 해빗 3개월 이용권',
+    orderName: '무사의습관 3개월 이용권',
     price: 249000,
     priceLabel: '249,000',
     unit: '원/3개월',
